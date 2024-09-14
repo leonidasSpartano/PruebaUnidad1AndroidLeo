@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2d022d"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIMULADO DE NUMEROS ALEATOREOS"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="#ffff"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/btnIniciar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INICIAR"
+            android:textSize="30dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Numero inicial:"
+            android:textColor="#ffff"
+            android:textSize="25dp"
+            android:layout_marginTop="100dp"/>
+        <EditText
+            android:id="@+id/textNinicial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffff"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Numero final:"
+            android:textColor="#ffff"
+            android:textSize="25dp"
+            android:layout_marginTop="50dp"/>
+
+        <EditText
+            android:id="@+id/textNfinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffff"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Numero al Azar:"
+            android:textColor="#ffff"
+            android:textSize="25dp"
+            android:layout_marginTop="50dp"/>
+        <TextView
+            android:id="@+id/textNResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffff"
+            android:textSize="25dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"/>
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volver"
+            android:textSize="30dp"
+            android:layout_marginTop="40dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
